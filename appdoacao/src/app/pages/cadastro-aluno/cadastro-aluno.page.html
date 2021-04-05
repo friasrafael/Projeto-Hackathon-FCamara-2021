@@ -1,0 +1,59 @@
+<ion-content [fullscreen]="true">
+
+  <div id="head">
+    <ion-icon id="seta" name="arrow-back-outline" (click)="voltar()"></ion-icon>
+    <h1>Cadastro do(a) aluno(a)</h1>
+    <p>Cadastre a criança sob seus cuidados</p>
+  </div>
+
+
+  <div id="dados-cadastro">
+    <form action="" id="dados">
+
+
+      <p class="info">Informações do Responsável:</p>
+      <ion-input class="data" placeholder=" Nome completo"> &nbsp;&nbsp;&nbsp;<ion-icon name="person-outline">
+        </ion-icon>
+      </ion-input>
+      <ion-input class="data" placeholder=" E-mail"> &nbsp;&nbsp;&nbsp; <ion-icon name="at-outline"></ion-icon>
+      </ion-input>
+      <ion-input class="data" placeholder=" Telefone"> &nbsp;&nbsp;&nbsp; <ion-icon name="call-outline"></ion-icon>
+      </ion-input>
+
+      <p class="info">Informações do Aluno:</p>
+      <ion-input class="data" placeholder=" Nome completo"> &nbsp;&nbsp;&nbsp; <ion-icon name="person-outline">
+        </ion-icon>
+      </ion-input>
+      <ion-input class="data" placeholder=" Cidade da escola - UF"> &nbsp;&nbsp;&nbsp; <ion-icon
+          name="location-outline"></ion-icon>
+      </ion-input>
+      <ion-input class="data" placeholder=" Escola que está matriculado"> &nbsp;&nbsp;&nbsp; <ion-icon
+          name="school-outline"></ion-icon>
+      </ion-input>
+      <ion-input class="data" placeholder=" Endereço da escola"> &nbsp;&nbsp;&nbsp; <ion-icon name="home-outline">
+        </ion-icon>
+      </ion-input>
+      <ion-input class="data" placeholder=" RA do aluno"> &nbsp;&nbsp;&nbsp; <ion-icon name="id-card-outline">
+        </ion-icon>
+      </ion-input>
+
+      <p class="info"> Abaixo, escreva os materiais que você precisa receber e a quantidade: </p>
+      <ion-textarea id="txtarea" cols="10" rows="15"
+        placeholder="Preencha a lista conforme o exemplo: &#10;&#10;Borracha x2 &#10;Livro de História x1 &#10;Caderno x3 &#10;Lapiseira x1">
+      </ion-textarea>
+    </form>
+
+    <br>
+
+    <div>
+      <ion-button expand="block" color="purple" fill="solid" (click)="cadastrarAluno()">Enviar</ion-button>
+    </div>
+
+    <br>
+
+  </div>
+
+
+
+
+</ion-content>

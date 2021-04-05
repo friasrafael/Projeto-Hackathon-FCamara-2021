@@ -1,0 +1,82 @@
+<ion-content [fullscreen]="true">
+
+  <div id="head">
+
+    <ion-icon id="menu-hamburguer" name="menu-outline" (click)="voltar()"></ion-icon>
+
+    <ion-card-content>
+      <h1>Olá, Ricardo!</h1>
+      <p>Seja bem-vindo (a) ao aplicativo "Doedu"!</p>
+    </ion-card-content>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col size="3">
+          <img src="./assets/img/home.png" style="margin-top: 25px;">
+        </ion-col>
+        <ion-col size="9">
+          <p>
+            Este é o aplicativo oficial para a campanha “Doe Educação”.
+            Um trabalho social que une pessoas de bom coração a pessoas que precisam de ajuda para a aquisição de materiais
+            escolares. A aplicação servirá como intermediadora, não fornecendo os materiais para compra,
+            tampouco permitindo doações em dinheiro. Doam-se apenas materiais escolares devidamente listados.
+          </p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+  </div>
+
+  <div id="homepage">
+
+    <ion-searchbar placeholder="ID da doação"></ion-searchbar>
+
+    <ion-card>
+      <ion-item>
+        <ion-icon name="happy-outline" slot="start"></ion-icon>
+        <ion-label>Cadastrar aluno (a)</ion-label>
+        <ion-button color="purple" fill="solid" slot="end" [routerLink]="['/cadastro-aluno']">ACESSAR</ion-button>
+      </ion-item>
+      <ion-card-content>
+        Responsável, cadastre seu (sua) filho (a), neto (a), seu sobrinho (a). Após, faça uma lista com os materiais que necessita.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-item>
+        <ion-icon name="person-circle-outline" slot="start"></ion-icon>
+        <ion-label>Doações Recebidas</ion-label>
+        <ion-button color="purple" fill="solid" slot="end" [routerLink]="['/painel-pais']">ACESSAR</ion-button>
+      </ion-item>
+      <ion-card-content>
+        Já fez o cadastro? Então clique aqui e saiba as propostas de doação!
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-item>
+        <ion-icon name="people-outline" slot="start"></ion-icon>
+        <ion-label>Doação idenficada</ion-label>
+        <ion-button color="purple" fill="solid" slot="end" (click)="navegarParaLista('identificada')">ACESSAR</ion-button>
+      </ion-item>
+      <ion-card-content>
+        O(a) doador(a) fará seu cadastro, acessará uma lista de alunos (as)
+        com os materiais cadastrados e fará a proposta de doação.
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+      <ion-item>
+        <ion-icon name="person-outline" slot="start"></ion-icon>
+        <ion-label>Doação anônima</ion-label>
+        <ion-button color="purple" fill="solid" slot="end" (click)="navegarParaLista('anonima')">ACESSAR</ion-button>
+      </ion-item>
+      <ion-card-content>
+        O(a) doador(a) vai direto para a lista de alunos e materiais cadastrados
+        para fazer a proposta de doação, porém, não será identificado.
+      </ion-card-content>
+    </ion-card>
+
+  </div>
+
+</ion-content>

@@ -1,0 +1,32 @@
+<ion-content [fullscreen]="true">
+
+  <div id="head">
+    <ion-icon id="menu-hamburguer" name="menu-outline"></ion-icon>
+    <ion-icon id="seta" name="arrow-back-outline" (click)="voltar()"></ion-icon>
+    <h1>Olá, Ricardo!</h1>
+  </div>
+
+  <div id="doacoes">
+
+    <br><br>
+
+    <ion-card>
+      <div class="container">
+        <ion-card-header>
+          <ion-card-title>Você tem uma doação! </ion-card-title>
+          <ion-card-subtitle>Gabriel Souza</ion-card-subtitle>
+        </ion-card-header>
+      </div>
+      <div class="container" style="float: right; margin-top: 20px; margin-right: 3px;">
+        <ion-button color="purple" [routerLink]="['/info-doacao-pais']">Ver</ion-button>
+      </div>
+    </ion-card>
+
+  </div>
+
+</ion-content>
+
+<!--
+  - Colocar duas divs uma ao lado da outra
+  - Melhorar o design da posição da seta
+-->

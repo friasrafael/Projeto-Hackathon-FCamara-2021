@@ -1,0 +1,86 @@
+#head {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(164.77deg, #9b51e0 9.9%, #5084f0 54.97%), #5084f0;
+    padding: 13px;
+
+    h1 {
+        text-align: center;
+        color: rgba(251, 251, 251, 1);
+        font-size: 30px;
+        margin-top: 10px !important;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 15px;
+        color: #fbfbfb;
+    }
+}
+
+
+p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    color: #fbfbfb;
+}
+
+#dados-cadastro {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    height: auto;
+    background: #f2f2f2;
+    border-radius: 28px;
+    padding: 5px;
+}
+
+#listaMateriais {
+    background-color: rgb(255, 255, 255);
+}
+
+
+.info {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 15px;
+    text-align: left;
+    margin-left: 5%;
+}
+
+ion-input {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 98%;
+}
+
+.data {
+    padding: 5px;
+    margin: 5px;
+}
+
+#txtarea {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: auto;
+}
+
+ion-button {
+    width: 328px;
+    height: 40px;
+    border-radius: 8px;
+    color: #fbfbfb;
+    margin: auto;
+}

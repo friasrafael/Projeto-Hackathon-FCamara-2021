@@ -1,0 +1,59 @@
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-card-content {
+  font-size: 12px;
+}
+
+ion-content {
+  --ion-background-color:#ffffff;
+}
+
+#homepage {
+  position: absolute;
+  width: 100%;
+  height: 95%;
+  top: 300px;
+  background: #f2f2f2;
+  border-radius: 28px;
+  padding: 10px;
+}
+
+#head {
+  padding: 10px;
+  color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 700px;
+  background: linear-gradient(164.77deg, #9b51e0 9.9%, #5084f0 54.97%),;
+  font-family:Inter !important;
+
+  p {
+    text-align: left;
+    font-size: 12px;
+  }
+}
