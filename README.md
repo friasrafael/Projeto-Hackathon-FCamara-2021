@@ -1,6 +1,8 @@
 # hackathon.fcamara.app
 Repositório do app mobile (front).
 
+https://imgur.com/o9mgyvE.png
+
 Este projeto faz parte do hackathon da FCamara 1/2021 e diz respeito a um aplicativo web mobile, onde familias de baixa renda possam cadastrar seus filhos, alunos de escolas públicas, para receberem doações de materiais, e doadores, em anonimato ou não, possam adquirir os materiais necessários e doá-los a esses alunos. O projeto foi desenvolvido com o framework Ionic 5 utilizando em conjunto o framework Angular.
 
 ## Instruções para instalar e rodar o app no computador:
